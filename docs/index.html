@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>張啟晟 - 自我介紹</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>張啟晟 - 自我介紹</h1>
+
+        <p>我叫張啟晟，於 <span class="highlight">2023年6月</span> 畢業於崑山科技大學智慧機器人工程系（夜間部），目前已完成役期，正積極尋找職場發展機會。</p>
+
+        <p>在大學期間，我的學習重心放在 <span class="highlight">Hiwin（上銀）機械手臂</span> 的程式設計與操作上，這是自動化領域的核心技術之一。我熟悉 Hiwin 機械手臂的完整操作流程，從基礎的點位設置與路徑規劃到複雜的多軸協同控制，具備實務經驗。我能精確設計機械手臂的運動軌跡，確保在生產過程中達到高效且穩定的自動化操作。</p>
+
+        <p>在操作 Hiwin 機械手臂時，我學會了如何通過其內部軟體進行座標系統的應用，這不僅提升了機械手臂的定位精度，還減少了路徑重複和不必要的停頓，進一步提高生產效率。此外，我也深入研究了機械手臂對夾具的控制，能夠根據不同工件的要求進行調整，確保精確的抓取、移動及放置，尤其在成品與不合格品的自動分類中發揮了重要作用。</p>
+
+        <p>為了強化這些技能，我成功取得了 Hiwin 機械手臂初階與中階操作證照，這證明了我對機械手臂操作技術的理解與實際應用能力。這些實戰經驗不僅讓我能夠獨立操作 Hiwin 機械手臂，還使我具備進行程式優化的能力，以應對各種不同的自動化生產需求。</p>
+
+        <p>除了機械手臂的技術專業，我也學習了網頁設計技術（如 <span class="highlight">HTML、CSS、JavaScript</span>）以及 <span class="highlight">Python</span> 的基礎程式設計與模組應用，這些知識幫助我在自動化與程式開發的領域更具競爭力。我希望能進一步學習其他品牌的機械手臂技術及新的程式語言，以拓展我的技術範圍。</p>
+
+        <p>儘管我在大學期間就讀夜間部，但我對學習充滿熱情，並期待能將我的經驗與技能快速應用到實際工作中，幫助貴公司實現高效的自動化生產。</p>
+
+        <p>此外，我在學業之外也積累了服務業與工廠主管助理的工作經驗，這些經歷強化了我的溝通能力、抗壓性與團隊協作能力。我相信這些專業知識與職場經驗的結合將能讓我為貴公司創造更大的價值。</p>
+
+        <p>感謝貴公司給予面試機會，我期待能與您合作，貢獻我的能力，共同成長，實現雙贏的目標。</p>
+
+        <div class="section-title">照片及證照</div>
+        <div class="image-section">
+            <button onclick="toggleImage('photo')">顯示/隱藏 照片</button>
+            <br>
+                <img id="photo" src="大頭.jpg" alt="張啟晟的照片" style="display:none;">
+            <br>
+            
+            <button onclick="toggleCertificates()">顯示/隱藏 證照</button>
+            <div id="certificates" style="display:none;" class="certificates">
+                <img class="certificate" src="初階證照.jpg" alt="證照 1" onclick="this.style.display='none';">
+                <img class="certificate" src="中階證照.jpg" alt="證照 2" onclick="this.style.display='none';">
+                <!-- 繼續添加更多證照 -->
+            </div>
+        </div>
+        <footer>感謝您花時間閱讀我的自我介紹，期待與貴公司合作！</footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
